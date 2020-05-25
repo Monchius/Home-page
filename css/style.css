@@ -1,13 +1,17 @@
+/* Fonts
+font-family: 'Bellefair', serif;
+font-family: 'Lato', sans-serif;
+*/
+
 body, *, *:before, *:after {
     box-sizing: border-box;
 }
 html, body {
-    font-family: "Helvetica Neu", Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16PX;
     color: #474747;
 }
 h1,h2,h3,h4,h5,h6, .title{
-    font-family: "Economica", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 0 1em;
@@ -65,14 +69,14 @@ P{
        position: relative;
     }
     .page-header .identity{
-        font-family: "Pacifico", cursive;
+        font-family: 'Bellefair', serif;
         font-size: 3.5em;
         position: absolute;
         bottom: 0em;
     }
     .page-header nav {
         float: right;
-        font-family: "Economica", sans-serif;
+        font-family: 'Lato', sans-serif;
         text-transform: uppercase;
     }
     .page-header nav li{
